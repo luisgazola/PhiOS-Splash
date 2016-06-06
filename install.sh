@@ -5,7 +5,7 @@ if [ $EUID -ne 0 ]; then
 	exit
 fi
 
-THEME='PhiOS'
+THEME='PhiOS-Splash'
 INSTALLDIR=/lib/plymouth/themes
 
 printf "Copying '${THEME}' theme files..."
