@@ -1,4 +1,4 @@
-// PhiOS plymouth theme by Luis Gazola
+// PhiOS-Splash plymouth theme by Luis Gazola
 // Theme based on "Mint plymouth theme 2.0" by Enriki: http://gnome-look.org/content/show.php/Mint+plymouth+theme+2.0?content=161036
 // Background based on "Black background wood 3" by iAmFreeman: http://iamfreeman.deviantart.com/art/Black-Background-Set-161870450
 
@@ -92,9 +92,9 @@ fun dialog_setup() {
 	local.entry;
 	local.prompt_sprite;
 
-	box.image = ImageNew("dialog/box.png");
-	lock.image = ImageNew("dialog/lock.png");
-	entry.image = ImageNew("dialog/entry.png");
+	box.image = ImageNew("box.png");
+	lock.image = ImageNew("lock.png");
+	entry.image = ImageNew("entry.png");
 
 	box.sprite = SpriteNew();
 	box.sprite.SetImage(box.image);
@@ -123,7 +123,7 @@ fun dialog_setup() {
 	global.dialog.box = box;
 	global.dialog.lock = lock;
 	global.dialog.entry = entry;
-	global.dialog.bullet_image = ImageNew("dialog/bullet.png");
+	global.dialog.bullet_image = ImageNew("bullet.png");
 	global.dialog.prompt_sprite = prompt_sprite;
 	dialog_opacity (1);
 }
