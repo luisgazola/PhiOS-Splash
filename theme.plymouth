@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=PhiOS
+Description=PhiOS theme by Luis Gazola
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/phios
+ScriptFile=/lib/plymouth/themes/phios/theme.script
